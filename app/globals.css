@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2002 Hot or Not Retro Styles */
+
+body {
+  background-color: #e8e8e8;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+}
+
+/* Retro button styles */
+.retro-btn {
+  @apply px-3 py-1 font-bold text-xs cursor-pointer;
+  background: linear-gradient(180deg, #ffffff 0%, #e0e0e0 50%, #c0c0c0 100%);
+  border: 2px outset #d0d0d0;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.retro-btn:hover {
+  background: linear-gradient(180deg, #f0f0f0 0%, #d0d0d0 50%, #b0b0b0 100%);
+}
+
+.retro-btn:active {
+  border-style: inset;
+  background: linear-gradient(180deg, #c0c0c0 0%, #d0d0d0 50%, #e0e0e0 100%);
+}
+
+.retro-btn-primary {
+  @apply px-4 py-2 font-bold text-white cursor-pointer;
+  background: linear-gradient(180deg, #ff6600 0%, #cc0000 100%);
+  border: 2px outset #ff8800;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.retro-btn-primary:hover {
+  background: linear-gradient(180deg, #ff8800 0%, #dd1111 100%);
+}
+
+.retro-btn-primary:active {
+  border-style: inset;
+}
+
+/* Retro input styles */
+.retro-input {
+  @apply px-2 py-1 text-xs;
+  border: 2px inset #808080;
+  font-family: Verdana, Geneva, sans-serif;
+  background: white;
+}
+
+.retro-input:focus {
+  outline: 1px dotted #000;
+}
+
+/* Retro panel/box styles */
+.retro-panel {
+  background: #f0f0f0;
+  border: 2px outset #d0d0d0;
+  padding: 8px;
+}
+
+.retro-panel-inset {
+  background: white;
+  border: 2px inset #808080;
+  padding: 8px;
+}
+
+/* Yellow rating box like the original */
+.rating-box {
+  background: linear-gradient(180deg, #ffff66 0%, #ffcc00 100%);
+  border: 3px solid #cc9900;
+  padding: 10px;
+}
+
+/* Rating radio buttons */
+.rating-radio {
+  accent-color: #cc0000;
+}
+
+/* Hot red header */
+.hot-header {
+  background: linear-gradient(180deg, #ff3300 0%, #cc0000 100%);
+  border-bottom: 3px solid #990000;
+}
+
+/* Blinking text effect */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Marquee effect */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee {
+  animation: marquee 15s linear infinite;
+}
+
+/* Retro link styles */
+.retro-link {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.retro-link:hover {
+  color: #ff0000;
+}
+
+.retro-link:visited {
+  color: #800080;
+}
+
+/* Table styles */
+.retro-table {
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.retro-table th {
+  background: linear-gradient(180deg, #d0d0d0 0%, #a0a0a0 100%);
+  border: 1px solid #808080;
+  padding: 4px 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.retro-table td {
+  background: white;
+  border: 1px solid #c0c0c0;
+  padding: 4px 8px;
+}
+
+.retro-table tr:hover td {
+  background: #ffffcc;
+}
+
+/* Score display */
+.score-hot {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.score-warm {
+  color: #ff6600;
+  font-weight: bold;
+}
+
+.score-cold {
+  color: #0066cc;
+  font-weight: bold;
+}
+
+/* Visitor counter style */
+.visitor-counter {
+  background: #000;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  padding: 2px 6px;
+  border: 1px inset #333;
+}

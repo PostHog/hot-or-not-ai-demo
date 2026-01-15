@@ -1,0 +1,224 @@
+{
+  "leads": [
+    {
+      "id": "1",
+      "companyName": "TechFlow Solutions",
+      "contactName": "Sarah Mitchell",
+      "contactEmail": "sarah@techflow.io",
+      "contactPhone": "(555) 123-4567",
+      "companySize": "50-100 employees",
+      "productInterest": "Enterprise CRM Platform",
+      "industry": "Software",
+      "website": "techflow.io"
+    },
+    {
+      "id": "2",
+      "companyName": "GreenLeaf Organics",
+      "contactName": "Marcus Chen",
+      "contactEmail": "marcus@greenleaf.com",
+      "contactPhone": "(555) 234-5678",
+      "companySize": "100-250 employees",
+      "productInterest": "Inventory Management System",
+      "industry": "Agriculture",
+      "website": "greenleaforganics.com"
+    },
+    {
+      "id": "3",
+      "companyName": "Pinnacle Financial",
+      "contactName": "Jennifer Adams",
+      "contactEmail": "jadams@pinnaclefin.com",
+      "contactPhone": "(555) 345-6789",
+      "companySize": "500-1000 employees",
+      "productInterest": "Security & Compliance Suite",
+      "industry": "Finance",
+      "website": "pinnaclefinancial.com"
+    },
+    {
+      "id": "4",
+      "companyName": "CloudNine Hosting",
+      "contactName": "David Park",
+      "contactEmail": "dpark@cloudnine.io",
+      "contactPhone": "(555) 456-7890",
+      "companySize": "25-50 employees",
+      "productInterest": "API Integration Tools",
+      "industry": "Technology",
+      "website": "cloudninehosting.io"
+    },
+    {
+      "id": "5",
+      "companyName": "Sunrise Healthcare",
+      "contactName": "Dr. Amanda Foster",
+      "contactEmail": "afoster@sunrisehc.org",
+      "contactPhone": "(555) 567-8901",
+      "companySize": "250-500 employees",
+      "productInterest": "Patient Management Portal",
+      "industry": "Healthcare",
+      "website": "sunrisehealthcare.org"
+    },
+    {
+      "id": "6",
+      "companyName": "BuildRight Construction",
+      "contactName": "Mike Thompson",
+      "contactEmail": "mthompson@buildright.co",
+      "contactPhone": "(555) 678-9012",
+      "companySize": "100-250 employees",
+      "productInterest": "Project Management Software",
+      "industry": "Construction",
+      "website": "buildrightco.com"
+    },
+    {
+      "id": "7",
+      "companyName": "Velocity Motors",
+      "contactName": "Carlos Rodriguez",
+      "contactEmail": "carlos@velocitymotors.com",
+      "contactPhone": "(555) 789-0123",
+      "companySize": "50-100 employees",
+      "productInterest": "Sales Analytics Dashboard",
+      "industry": "Automotive",
+      "website": "velocitymotors.com"
+    },
+    {
+      "id": "8",
+      "companyName": "EduSpark Learning",
+      "contactName": "Lisa Wang",
+      "contactEmail": "lwang@eduspark.edu",
+      "contactPhone": "(555) 890-1234",
+      "companySize": "25-50 employees",
+      "productInterest": "LMS Integration Platform",
+      "industry": "Education",
+      "website": "edusparklearning.edu"
+    },
+    {
+      "id": "9",
+      "companyName": "FreshBite Delivery",
+      "contactName": "Tom Jackson",
+      "contactEmail": "tjackson@freshbite.com",
+      "contactPhone": "(555) 901-2345",
+      "companySize": "100-250 employees",
+      "productInterest": "Logistics & Routing System",
+      "industry": "Food & Beverage",
+      "website": "freshbitedelivery.com"
+    },
+    {
+      "id": "10",
+      "companyName": "Stellar Marketing",
+      "contactName": "Rachel Green",
+      "contactEmail": "rgreen@stellarmktg.com",
+      "contactPhone": "(555) 012-3456",
+      "companySize": "10-25 employees",
+      "productInterest": "Marketing Automation Suite",
+      "industry": "Marketing",
+      "website": "stellarmarketing.com"
+    },
+    {
+      "id": "11",
+      "companyName": "SecureVault Inc",
+      "contactName": "James Morrison",
+      "contactEmail": "jmorrison@securevault.io",
+      "contactPhone": "(555) 111-2222",
+      "companySize": "50-100 employees",
+      "productInterest": "Data Encryption Platform",
+      "industry": "Cybersecurity",
+      "website": "securevaultinc.io"
+    },
+    {
+      "id": "12",
+      "companyName": "HomeStyle Interiors",
+      "contactName": "Emily Brooks",
+      "contactEmail": "ebrooks@homestyle.com",
+      "contactPhone": "(555) 222-3333",
+      "companySize": "25-50 employees",
+      "productInterest": "E-commerce Platform",
+      "industry": "Retail",
+      "website": "homestyleinteriors.com"
+    },
+    {
+      "id": "13",
+      "companyName": "AeroTech Dynamics",
+      "contactName": "Robert Hayes",
+      "contactEmail": "rhayes@aerotech.com",
+      "contactPhone": "(555) 333-4444",
+      "companySize": "500-1000 employees",
+      "productInterest": "Supply Chain Management",
+      "industry": "Aerospace",
+      "website": "aerotechdynamics.com"
+    },
+    {
+      "id": "14",
+      "companyName": "PetPal Services",
+      "contactName": "Samantha Lee",
+      "contactEmail": "slee@petpal.com",
+      "contactPhone": "(555) 444-5555",
+      "companySize": "10-25 employees",
+      "productInterest": "Booking & Scheduling System",
+      "industry": "Pet Services",
+      "website": "petpalservices.com"
+    },
+    {
+      "id": "15",
+      "companyName": "Metro Transit Authority",
+      "contactName": "William Chen",
+      "contactEmail": "wchen@metrotransit.gov",
+      "contactPhone": "(555) 555-6666",
+      "companySize": "1000+ employees",
+      "productInterest": "Fleet Management Platform",
+      "industry": "Government",
+      "website": "metrotransit.gov"
+    },
+    {
+      "id": "16",
+      "companyName": "Neon Gaming Studios",
+      "contactName": "Alex Turner",
+      "contactEmail": "aturner@neongaming.com",
+      "contactPhone": "(555) 666-7777",
+      "companySize": "50-100 employees",
+      "productInterest": "Analytics & User Insights",
+      "industry": "Gaming",
+      "website": "neongamingstudios.com"
+    },
+    {
+      "id": "17",
+      "companyName": "Harmony Wellness",
+      "contactName": "Diana Patel",
+      "contactEmail": "dpatel@harmonywellness.com",
+      "contactPhone": "(555) 777-8888",
+      "companySize": "25-50 employees",
+      "productInterest": "Membership Management",
+      "industry": "Health & Fitness",
+      "website": "harmonywellness.com"
+    },
+    {
+      "id": "18",
+      "companyName": "Quantum Research Labs",
+      "contactName": "Dr. Steven Wright",
+      "contactEmail": "swright@quantumlabs.io",
+      "contactPhone": "(555) 888-9999",
+      "companySize": "100-250 employees",
+      "productInterest": "Data Visualization Tools",
+      "industry": "Research",
+      "website": "quantumresearchlabs.io"
+    },
+    {
+      "id": "19",
+      "companyName": "Coastal Real Estate",
+      "contactName": "Michelle Santos",
+      "contactEmail": "msantos@coastalre.com",
+      "contactPhone": "(555) 999-0000",
+      "companySize": "50-100 employees",
+      "productInterest": "CRM & Lead Tracking",
+      "industry": "Real Estate",
+      "website": "coastalrealestate.com"
+    },
+    {
+      "id": "20",
+      "companyName": "BrightStar Energy",
+      "contactName": "Kevin O'Brien",
+      "contactEmail": "kobrien@brightstar.energy",
+      "contactPhone": "(555) 000-1111",
+      "companySize": "250-500 employees",
+      "productInterest": "Resource Planning System",
+      "industry": "Energy",
+      "website": "brightstarenergy.com"
+    }
+  ]
+}

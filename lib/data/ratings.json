@@ -1,0 +1,36 @@
+{
+  "ratings": {
+    "3": [
+      {
+        "userId": "anonymous",
+        "leadId": "3",
+        "score": 8,
+        "ratedAt": "2026-01-15T17:13:01.681Z"
+      }
+    ],
+    "6": [
+      {
+        "userId": "anonymous",
+        "leadId": "6",
+        "score": 9,
+        "ratedAt": "2026-01-15T17:13:25.570Z"
+      }
+    ],
+    "11": [
+      {
+        "userId": "anonymous",
+        "leadId": "11",
+        "score": 1,
+        "ratedAt": "2026-01-15T17:13:33.784Z"
+      }
+    ],
+    "14": [
+      {
+        "userId": "anonymous",
+        "leadId": "14",
+        "score": 5,
+        "ratedAt": "2026-01-15T17:13:30.173Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/session/route": "app/api/auth/session/route.js",
+  "/api/leaderboard/route": "app/api/leaderboard/route.js",
+  "/api/leads/[id]/rate/route": "app/api/leads/[id]/rate/route.js",
+  "/api/leads/random/route": "app/api/leads/random/route.js",
+  "/leaderboard/page": "app/leaderboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/rate/page": "app/rate/page.js"
+}
