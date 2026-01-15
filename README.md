@@ -35,28 +35,16 @@ The codebase is intentionally simple and free of any analytics or tracking, maki
 ### Installation
 
 ```bash
-# Install backend dependencies
-cd backend
-npm install
-
-# Install frontend dependencies
-cd ../frontend
 npm install
 ```
 
 ### Running the App
 
-Start both servers:
-
 ```bash
-# Terminal 1 - Backend (runs on port 3001)
-cd backend
-npm start
-
-# Terminal 2 - Frontend (runs on port 5173)
-cd frontend
 npm run dev
 ```
+
+This starts both the backend (port 3001) and frontend (port 5173) concurrently.
 
 Open http://localhost:5173 in your browser.
 
@@ -65,19 +53,18 @@ Open http://localhost:5173 in your browser.
 ```
 hot-or-not-leads/
 ├── backend/
-│   ├── server.js          # Express API server
-│   ├── data/
-│   │   └── leads.json     # Lead data storage
-│   └── package.json
+│   ├── server.cjs         # Express API server
+│   └── data/
+│       └── leads.json     # Lead data storage
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx        # Main React component
 │   │   ├── App.css        # 2002-era styling
 │   │   ├── main.jsx       # React entry point
 │   │   └── index.css      # Base styles
-│   ├── index.html
-│   ├── vite.config.js
-│   └── package.json
+│   └── index.html
+├── vite.config.js
+├── package.json
 └── README.md
 ```
 
